@@ -10,7 +10,7 @@ Usage help:
 `./stringslicer`
 
 * Output:
-```
+```bash
 Usage: ./stringslicer [STRINGTOSPLIT]:[DELIMITERSTRING]...
 String Slicer is a command-line tool that splits a string into substrings using a delimiter, inspired by Python’s split()
 ```
@@ -19,7 +19,7 @@ String Slicer is a command-line tool that splits a string into substrings using 
 `./stringslicer Hello:e "How are you doing: are" test: word: "john doe:ohn " jdoe:o"
 
 * Output of splitting a sequence of strings by delimter:
-```
+```bash
 [*] Perform split sequence for argument 1 of 6 -> "Hello:e":
 ["String to split": "Hello", "String to split by": "e"]
 ["H", "llo"]
