@@ -1,2 +1,2 @@
 # string_slicer
-String slicer is a command line C implementation of a string splitting function, inspired by Python’s split(). It splits a string into substrings based on a delimiter.
+String Slicer is a C command-line tool that splits a string into substrings using a delimiter, inspired by Python’s split(
