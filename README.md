@@ -2,21 +2,25 @@
 String Slicer is a C command-line tool that splits a string into substrings using a delimiter, inspired by Python’s split()
 
 # Installation and Compilation
-`git clone https://github.com/hacker3983/string_slicer`
-`cd string_slicer && gcc stringslicer.c -o stringslicer && ./stringslicer`
-
+```bash
+git clone https://github.com/hacker3983/string_slicer
+cd string_slicer && gcc stringslicer.c -o stringslicer && ./stringslicer`
+```
 # Usage example
 Usage help:
-`./stringslicer`
-
-* Output:
+```bash
+./stringslicer
+```
+* Usage help output:
 ```bash
 Usage: ./stringslicer [STRINGTOSPLIT]:[DELIMITERSTRING]...
 String Slicer is a command-line tool that splits a string into substrings using a delimiter, inspired by Python’s split()
 ```
 
 * Example of splitting a sequence of strings by delimiter:
-`./stringslicer Hello:e "How are you doing: are" test: word: "john doe:ohn " jdoe:o"
+```bash
+./stringslicer Hello:e "How are you doing: are" test: word: "john doe:ohn " jdoe:o"
+```
 
 * Output of splitting a sequence of strings by delimter:
 ```bash
