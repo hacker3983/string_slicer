@@ -146,7 +146,7 @@ int main(int argc, char** argv) {
 		return -1;
 	}
 	for(int i=1;i<argc;i++) {
-		printf("\033[34m[\033[32m*\033[34m]\033[0m Perform split sequence for argument \033[32m%d\033[0m of \033[32m%d -> \033[31m\"%s\"\033[0m:\n", i, argc-1, argv[i]);
+		printf("\033[34m[\033[32m*\033[34m]\033[0m Performing split sequence for argument \033[32m%d\033[0m of \033[32m%d -> \033[31m\"%s\"\033[0m:\n", i, argc-1, argv[i]);
 		size_t parsed_resultcount = 0, split_count = 0,
 		       string_len = 0, delimiter_len = 0;
 		char **parsed_result = parse_commandline_argument(argv[i], &parsed_resultcount),
